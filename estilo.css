@@ -1,0 +1,33 @@
+body {
+    background: blue;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+    text-align: center;
+}
+
+footer {
+    width: 80px;
+    color: white;
+    margin: auto;
+    font-style: italic;
+    padding: 1%;
+}
+a#copy {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+

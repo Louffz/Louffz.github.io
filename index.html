@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecânicas Rocket League</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Rumble_Swapper_icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Mecânicas Que Você Deve Aprender</h1>
+        <p style="font-size: 20px;">esta página está sendo feita só para praticar a criação de sites, e ainda não está completa</p>
+    </header>
+    <section>
+        <div>
+            <p>Qual o seu rank?</p>
+            <img src="874796539_preview_ranks.gif" alt="" height="30px" style="vertical-align: middle;">
+            <select name="ranks" id="ranks" onchange="selecionou(this.value)">
+                <option value="selecione">Selecione Seu Rank</option>
+                <option value="bronze">Bronze</option>
+                <option value="prata">Prata</option>
+                <option value="ouro">Ouro</option>
+                <option value="Plat">Platina</option>
+                <option value="D">Diamante</option>
+                <option value="C">Campeão</option>
+                <option value="GC">Grande Campeão</option>
+                <option value="SC">Supercampeão</option>
+                <option value="Lenda Supersônica">Lenda Supersônica</option>
+            </select>
+            
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <a href="https://www.youtube.com/channel/UC17j91dPiZLKzlTtn3Rsmfg" id="copy" target="_blank" rel="external" onmousemove="entrou()" onmouseout="saiu()">&copy; Louffz</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
